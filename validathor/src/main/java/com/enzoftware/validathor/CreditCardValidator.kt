@@ -10,7 +10,7 @@ class CreditCardValidator {
         return creditCardInformation
     }
 
-    private fun validateCreditCardNumber(number: String) : Boolean {
+    fun validateCreditCardNumber(number: String) : Boolean {
         return checkIfNumberContainsOnlyDigits(number)
                 &&  validateLengthOfCardNumber(number)
                 && (validateAndGetStartingSixDigits(number) > 0)

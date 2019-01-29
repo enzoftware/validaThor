@@ -21,13 +21,13 @@ open class RegexMatcher {
         }
     }
 
-    private fun validate(dataStr: String, pattern: Pattern) : Boolean {
+    fun validate(dataStr: String, pattern: Pattern) : Boolean {
         return !dataStr.isEmpty() && pattern.matcher(dataStr).matches()
     }
 
 
 
-    private fun find(dataStr: String, pattern: Pattern) : Boolean {
+    fun find(dataStr: String, pattern: Pattern) : Boolean {
         return !dataStr.isEmpty() && pattern.matcher(dataStr).find()
     }
 
