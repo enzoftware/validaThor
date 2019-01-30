@@ -17,7 +17,7 @@ Easy android validator library to check if strings match with regex patterns.
 
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
-```
+```gradle
 	allprojects {
 		repositories {
 			...
@@ -27,7 +27,7 @@ Add it in your root build.gradle at the end of repositories:
 ```
 
 Step 2. Add the dependency
-```
+```gradle
 dependencies {
 	        implementation 'com.github.enzoftware:validaThor:0.1.0'
 	}
@@ -36,18 +36,18 @@ dependencies {
 Step 3. Sync gradle files
 
 Step 4. Create an instance of ValidaThor:
-```
+```kotlin
 private lateinit var validaThor: ValidaThor
 ```
 
 Step 5. Initialize the instance of ValidateTor by appending the following to onCreate():
-```
+```kotlin
 // Initialize validatetor instance
 validathor = ValidaThor()
 ```
 
 Step 6. Start validating your strings
-```
+```kotlin
 validathor.validateCreditCard(str)
 validathor.isEmail(str)
 validathor.isJson(str)
