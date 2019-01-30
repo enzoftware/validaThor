@@ -7,6 +7,7 @@
 
 </div>
 
+[![](https://jitpack.io/v/enzoftware/validaThor.svg)](https://jitpack.io/#enzoftware/validaThor)
 
 Easy android validator library to check if strings match with regex patterns.
 
