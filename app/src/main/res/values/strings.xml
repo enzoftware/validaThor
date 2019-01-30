@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ValidaThorAppExample</string>
+	<string name="validate">Validate</string>
+	<string name="credit_card">Enter credit card number</string>
+	<string name="password">Enter password</string>
+	<string name="email">Enter email</string>
 </resources>
