@@ -31,5 +31,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation project(':validathor')
+    // implementation project(':validathor') : THIS IS JUST FOR THE LOCAL PROJECT
+    implementation 'com.github.enzoftware:validaThor:0.1.0'
 }
